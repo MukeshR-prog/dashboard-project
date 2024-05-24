@@ -1,0 +1,31 @@
+.sidebar {
+    width: 250px;
+    background-color: rgb(44, 62, 80);
+    color: white;
+    height: 100vh;
+    padding-top: 20px;
+    position: fixed;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    position: fixed;
+}
+
+.sidebar nav ul li {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: rgb(52, 73, 94); 
+}
